@@ -110,7 +110,7 @@ Develop an automated system to detect traffic accidents in real-time using surve
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/accident-detection-system.git
+    git clone https://github.com/meCeltic/Machine-learning-Projects/tree/master/Accident-Detection-Model
     ```
 2. Navigate to the project directory:
     ```sh
@@ -125,19 +125,7 @@ Develop an automated system to detect traffic accidents in real-time using surve
     ```sh
     pip install -r requirements.txt
     ```
-
-## Usage
-1. **Data Preparation**: Place your annotated data in the `data` directory.
-2. **Training the Model**:
-    ```sh
-    python train.py
-    ```
-3. **Real-Time Monitoring**:
-    ```sh
-    python monitor.py
-    ```
-4. The system will start capturing video from your camera and display real-time accident detection analysis.
-
+    
 ## Model Architecture
 The CNN model used for accident detection is designed with the following layers:
 - Convolutional layers
@@ -153,10 +141,6 @@ The CNN model used for accident detection is designed with the following layers:
 ## Training the Model
 The model was trained using:
 - **YOLO** for object detection.
-- **Optimizer**: Adam
-- **Loss Function**: Categorical Crossentropy
-- **Metrics**: Accuracy
-
 ## Real-Time Video Processing
 OpenCV was used to capture real-time video feed and overlay accident detection results using the trained YOLO model.
 
