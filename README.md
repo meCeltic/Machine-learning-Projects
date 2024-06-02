@@ -55,7 +55,7 @@ Develop an intelligent system to monitor and analyze workplace posture in real-t
     ```
 3. **Real-Time Monitoring**:
     ```sh
-    real_time.py
+    posture_realtime.py
     ```
 4. The system will start capturing video from your camera and display real-time posture analysis.
 
