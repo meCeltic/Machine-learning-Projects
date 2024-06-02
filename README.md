@@ -35,11 +35,11 @@ Develop an intelligent system to monitor and analyze workplace posture in real-t
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/workplace-posture-monitoring.git
+    git clone https://github.com/meCeltic/Machine-learning-Projects/tree/master/Sitting-Posture-Recognition
     ```
 2. Navigate to the project directory:
     ```sh
-    cd workplace-posture-monitoring
+    cd Sitting-Posture-Recognition
     ```
 3. Create a virtual environment and activate it:
     ```sh
